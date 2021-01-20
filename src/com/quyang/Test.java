@@ -49,6 +49,17 @@ public class Test {
             System.out.println("string length = " + ret.length());
             System.out.println("byte length = " + ret.getBytes("GBK").length);
         }
+        {
+            final String in2 = "1林丽莎一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九1十";
+            final String ret = dealString3(in2);
+
+            System.out.println(in2);
+            System.out.println("string length = " + in2.length());
+            System.out.println("byte length = " + in2.getBytes("GBK").length);
+            System.out.println(ret);
+            System.out.println("string length = " + ret.length());
+            System.out.println("byte length = " + ret.getBytes("GBK").length);
+        }
 
 
     }
